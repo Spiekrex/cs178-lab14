@@ -34,7 +34,6 @@ rows = execute_query("""
     FROM Artist
     JOIN Album USING (ArtistID)
     JOIN Track USING (AlbumID)
-    JOIN Track USING (Milliseconds)
     LIMIT 10
 """)
 
