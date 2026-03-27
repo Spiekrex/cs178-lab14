@@ -2,7 +2,6 @@ import pymysql
 import creds  # download creds.py from Blackboard — do NOT push to GitHub
 
 
-
 def get_connection():
     """Opens and returns a connection to the RDS MySQL database."""
     return pymysql.connect(
